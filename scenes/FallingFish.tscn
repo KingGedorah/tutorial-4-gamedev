@@ -8,6 +8,8 @@ radius = 28.0
 height = 18.0
 
 [node name="FallingFish" type="RigidBody2D"]
+contacts_reported = 1
+contact_monitor = true
 script = ExtResource( 2 )
 
 [node name="FishBlue" type="Sprite" parent="."]
